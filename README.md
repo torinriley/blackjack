@@ -20,46 +20,20 @@ Hand-drawn ASCII cards, animated deals, a typewriter title screen, and not a sin
 
 ## Preview
 
-```
-                    ♠   ♥   ♦   ♣
-
-                       DEALER
-              ╭───────╮ ╭───────╮
-              │K♦     │ │◆·◆·◆·◆│
-              │       │ │·◆·◆·◆·│
-              │   ♦   │ │·◆·✦·◆·│
-              │       │ │·◆·◆·◆·│
-              │     K♦│ │◆·◆·◆·◆│
-              ╰───────╯ ╰───────╯
-                          10
-
-              ────────────────────
-
-                  YOU  ·  bet $25
-              ╭───────╮ ╭───────╮
-              │A♠     │ │7♥     │
-              │       │ │       │
-              │   ♠   │ │   ♥   │
-              │       │ │       │
-              │     A♠│ │     7♥│
-              ╰───────╯ ╰───────╯
-                       Soft 18
-
-                 bankroll $475
-```
+![Blackjack preview](assets/preview.png)
 
 ## Features
 
-- 🎴 **Hand-drawn cards** — rounded corners, suit-colored ranks, a genuinely cool purple diamond-lattice card back (not the usual `[X]`)
-- 🎬 **Real animation** — cards deal in one at a time, the dealer's hole card flips face-up, results slide in with a highlight
-- ✨ **Typewriter title screen** — big block-letter logo types itself out with a blinking cursor on launch
-- 💰 **Real rules** — 4-deck shoe with auto-reshuffle, dealer hits soft 17, blackjack pays 3:2, hit / stand / double
-- 🪶 **One dependency** — just [`rich`](https://github.com/Textualize/rich), nothing else
+- **Hand-drawn cards** — rounded corners, suit-colored ranks, a genuinely cool purple diamond-lattice card back (not the usual `[X]`)
+- **Real animation** — cards deal in one at a time, the dealer's hole card flips face-up, results slide in with a highlight
+- **Typewriter title screen** — big block-letter logo types itself out with a blinking cursor on launch
+- **Real rules** — 4-deck shoe with auto-reshuffle, dealer hits soft 17, blackjack pays 3:2, hit / stand / double
+- **One dependency** — just [`rich`](https://github.com/Textualize/rich), nothing else
 
 ## Quickstart
 
 ```bash
-git clone https://github.com/<your-username>/blackjack.git
+git clone https://github.com/torinriley/blackjack.git
 cd blackjack
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
